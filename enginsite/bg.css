@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+ nav{
+    background: transparent;
+    z-index: 1!important;
+}
+.navbar-brand{
+    color:white;
+}
+li a{
+    font-weight: 500;
+    transition: 2s;
+}
+.w{
+    color: white!important;
+}
+.dark{
+    color: black!important;
+}
+a:hover{
+    transition:1s;
+    border: 2px solid white;
+}
+.scroll{
+    width:100%;
+    height: 80px;
+    background-color:white;
+    color: black!important;
+    z-index: 1;
+}
+
+main{
+    background: url(images/building2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    padding-top: 200px;
+} 
+/* main::before{
+    content: " ";
+    background: black;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+} */
+.offcanvas-body{
+    color: white;
+    z-index: 1;
+}
+
+/* projects */
+
+.project-con{
+    background-color: #143472;
+    color: white;
+    position: relative;
+    left:300px; 
+    width: 45%;
+    height: 65vh;
+    margin-top: 200px;
+    /* z-index: 1; */
+}
+.project{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 90px;
+}
+.projectp{
+    margin-top:25px;
+    max-width:90%;
+}
+.projectb{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+    max-width: 400px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size:25px;
+}
+
+.projectb:hover{
+    border: none;
+}
+.arch-img{
+    width: 450px;
+    height: 90vh;
+}
+.arch-img2{
+    border-radius:10px;
+}
+.arch-small{
+    font-size: 50px;
+}
+.sub-text{
+    margin-left: 60px;
+}
+.subb{
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: left;
+    text-decoration: underline;
+}
+.card{
+    width:17rem;
+    height: 400px;
+}
+
+.no-gy{
+    margin-top:15px;
+}
+.pictures{
+    background-color: #143472;
+}
+.textz{
+    width: 64%;
+    margin-left:165px;
+}
+.cunt{
+    font-size:40px;
+}
+.formss{
+    background-color: #143472;
+    padding-top: 80px;
+}
+form{
+    margin-top: 40px;
+    margin-left: 320px;
+}
+input{
+    width: 300px;
+    margin-left:25px;
+    height: 42px;
+    padding: 3px;
+}
+#submit{
+    background-color: rgb(241,197,14);
+    color: #143472;
+    border: none;
+    text-transform: uppercase;
+    width: 630px;
+}
+#submit:hover{
+    background-color: white;
+}
+.flex-1{
+    margin-top: 40px;
+    color: white;
+    line-height: 1;
+    margin: 25px;
+}
+.foot-icon{
+    padding-bottom: 60px;
+}
+
+
+/* media q */
+@media screen and (max-width:1200px){
+    .project-con{
+        left:100px;
+    }
+    .card{
+        width:14rem;
+    }
+    form{
+        margin-left: 180px;
+    }
+    input{
+        margin-left:25px;
+    }
+    .fle{
+        margin-top: 40px;
+    }
+}
+
+/* form 950 */
+@media screen and (max-width:950px) {
+    form{
+        margin-left: 180px;
+    }
+    input{
+        width: 250px;
+        margin-left:25px;
+       
+    }
+    #submit{
+        width:530px;
+    }
+    .cunt{
+        font-size:30px;
+        width: 90%;
+        margin-left:90px;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    .project-con{
+        width: 70%;
+        left:80px;
+    }
+    .arch-img{
+        width: 100%;
+    }
+    .card{
+        width:20rem;
+    }
+   
+    .cunt{
+        font-size:30px;
+        width: 90%;
+        margin-left:70px;
+    }
+    form{
+        margin-left: 250px;
+    }
+    input{
+        width:200px;
+        margin-left:25px;
+       
+    }
+    #submit{
+        width:430px;
+    }
+   
+}
+
+@media screen and (max-width:767px) {
+    .card{
+        width:80%;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .textz{
+        width: 90%;
+        margin-left: 13px;
+    }
+    form{
+        margin-left: 100px;
+    }
+    input{
+        width:200px;
+        margin-left:25px;
+       
+    }
+    #submit{
+        width:430px;
+    }
+   
+     .cunt{
+        width: 40%;
+        margin-left:220px;
+    }
+}
+/* form 784 */
+@media screen and (max-width:784px) {
+    form{
+        margin-left: 180px;
+    }
+    input{
+        width:80%;
+        margin-left:5px;
+        margin-top:18px;
+    }
+    #submit{
+        width: 80%;
+    }
+       
+    .cunt{
+        width: 40%;
+        margin-left:250px;
+    }
+    .foot1{
+        margin-top:30px;
+    }
+}
+
+@media screen and (max-width:612px) {
+    .project-con{
+        width: 100%;
+        left:0;
+        padding-bottom: 10px;
+    }
+    form{
+        margin-left: 50px;
+    }
+    input{
+        width:80%;
+        margin-left:5px;
+        margin-top:18px;
+    }
+    #submit{
+        width:80%;
+    }
+     .cunt{
+        width: 40%;
+        margin-left:160px;
+    }
+    .flex-1{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .flex2{
+        flex-direction: column!important;
+    }
+    .text{
+        margin-top: 25px;
+    }
+    .arch-small{
+        font-size: 25px;
+        text-align: center;
+    }
+    h5.small{
+        margin-top: 20px!important;
+        margin-left: 60px;
+    }
+    .smalls{
+        margin-left: -5px;
+    }
+    .subb{
+        margin-left: 90px;
+        
+    }
+    #submit{
+        /* width:390px; */
+    }
+    .cunt{
+        width: 100%;
+        margin-left: 23px;
+    }
+}
